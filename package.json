@@ -1,0 +1,19 @@
+{
+  "name": "blog_template_astro_sanity",
+  "version": "1.0.0",
+  "description": "Monorepo for Astro / Sanity Blog Template",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "lerna run --parallel start"
+  },
+  "author": "Corey DeLoach",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "lerna": "^7.1.3",
+    "typescript": "^5.1.6"
+  }
+}
